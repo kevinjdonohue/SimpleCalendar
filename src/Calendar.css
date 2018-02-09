@@ -1,0 +1,14 @@
+.calendar {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(7, 14.28%);
+  grid-template-rows: repeat(auto-fill, 100px);
+}
+
+.calendar__header {
+  background-color: lightslategray;
+}
+
+.calendar__header--odd {
+  background-color: lightskyblue;
+}
